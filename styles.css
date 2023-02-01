@@ -3,7 +3,6 @@
 body {
     font-family: 'Open Sans', Arial, sans-serif;
     line-height: 1.5;
-    scroll-behavior: smooth;
 }
 
 #main-doc {
@@ -49,7 +48,7 @@ header article code {
 
 /* navbar */
 #navbar {
-    display:inline-block;
+    display: inline-block;
     position: fixed;
     min-width: 290px;
     top: 0px;
@@ -83,6 +82,13 @@ header article code {
     list-style: none;
     position: relative;
     width: 100%;
+}
+
+#navbar a:hover {
+    color: white;
+    background: rgba(0, 22, 22, 0.4);
+    font-weight: 600;
+    transition: ease-in-out 100ms;
 }
 
 #navbar .nav-link {
